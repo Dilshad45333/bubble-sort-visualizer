@@ -1,0 +1,9 @@
+
+
+
+
+
+  <div class="container">
+    <div class="array" *ngFor="let num of sortedArray" [style.height.px]="num * 10">{{ num }}</div>
+  </div>
+  <button (click)="selectionSort()" [disabled]="sortedArray.length > 0">SelectionSort</button>

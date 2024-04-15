@@ -1,0 +1,4 @@
+<div class="container">
+    <div class="array" *ngFor="let num of numbers" [style.height.px]="num * 10">{{ num }}</div>
+  </div>
+  <button (click)="sort()" >BubbleSort</button>

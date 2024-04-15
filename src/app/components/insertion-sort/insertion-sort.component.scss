@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 300px;
+  }
+  .array {
+    background-color: lightblue;
+    border: 1px solid black;
+    margin-right: 5px;
+    flex: 0 0 auto;
+  }
+  button {
+    background-color: blue; /* Set button background color to blue */
+    color: white; /* Set text color to white */
+    margin-top: 10px;
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor on hover */
+    border-radius: 10px;
+
+  }

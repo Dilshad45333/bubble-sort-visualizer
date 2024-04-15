@@ -1,0 +1,7 @@
+
+
+
+  <div class="container">
+    <div class="array" *ngFor="let num of array" [style.height.px]="num * 10">{{ num }}</div>
+  </div>
+  <button (click)="sort()" >InsertionSort</button>
